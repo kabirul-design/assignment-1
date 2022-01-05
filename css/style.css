@@ -86,19 +86,18 @@ small{
     border-radius: 10px;
     margin-right: 20px;
 }
-.mission-box1,
+
 .mission-box img{
     width: 30%;
     padding-bottom: 20px;
     
 }
-.mission-box1,
+
 .mission-box h3{
     font-size: 20px;
     padding-bottom: 18px;
 
 }
-.mission-box1,
 .mission-box p{
     font-size: 15px;
     color: #000;
