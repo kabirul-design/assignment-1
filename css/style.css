@@ -43,7 +43,7 @@ a{
 .banner-title .btn{
    font-size: 15px;
    font-weight: 600;
-   background:  #d35400;
+   background:  #00a8ff;
    padding: 10px 25px;
    border-radius: 10px;
    color: #fff;
@@ -51,9 +51,8 @@ a{
    
 }
 .banner-title .btn:hover{
-    background: none;
-    border: 1px solid #d35400;
-    color: black;
+    background: #FDA7DF;
+    color: #2c3e50;    
 }
 
 small{
@@ -125,12 +124,6 @@ small{
     color: #2c3e50;
 }
 
-/* mission area ends */
-
-.develop-area{
-    display: flex;
-}
-
 .mission-box img{
     width: 30%;
     padding-bottom: 20px;
@@ -148,6 +141,57 @@ small{
     padding-bottom: 40px;
 
 }
+/* mission area ends */
+
+.develop-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.develop-image{
+    width: 50%;
+}
+
+.develop-image img{
+    width: 80%;
+    margin-left: 40px;
+
+}
+.develop-text{
+    width: 50%;
+}
+.develop-text h1{
+    font-size: 30px;
+    color: #2c3e50;
+    margin-top: 50px;
+    padding-bottom:20px ;
+}
+.develop-text p{
+    font-size: 15px;
+    color: #2c3e50;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    
+}
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+     background:  #7ed6df;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+ .btn:hover{
+    background: #FDA7DF;
+    color: #2c3e50;    
+}
+
+
+
+
+
+
 
 
 
