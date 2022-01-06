@@ -146,6 +146,12 @@ small{
 .develop-area{
     display: flex;
     margin-bottom: 100px;
+    margin-left: 100px;
+   
+}
+.shape-image{
+    background: url(../img/shapes/shape-1.png) no-repeat;
+
 }
 
 .develop-image{
@@ -154,7 +160,6 @@ small{
 
 .develop-image img{
     width: 80%;
-    margin-left: 40px;
 
 }
 .develop-text{
@@ -163,7 +168,7 @@ small{
 .develop-text h1{
     font-size: 30px;
     color: #2c3e50;
-    margin-top: 50px;
+    margin-top: 100px;
     padding-bottom:20px ;
 }
 .develop-text p{
@@ -176,9 +181,56 @@ small{
 .btn{
     font-size: 15px;
     font-weight: 600;
-     background:  #7ed6df;
+    background:  #7ed6df;
     padding: 10px 25px;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+ .btn:hover{
+    background: #FDA7DF;
+    color: #2c3e50;    
+}
+
+/* develop area ends */
+
+
+.global-area{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.global-image{
+    width: 50%;
+}
+
+.global-image img{
+    width: 80%;
+}
+.global-text{
+    width: 50%;
+
+}
+.global-text h1{
+    font-size: 30px;
+    color: #2c3e50;
+    margin-top: 100px;
+    padding-bottom:20px ;
+}
+.global-text p{
+    font-size: 15px;
+    color: #2c3e50;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    
+}
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    background:  #7ed6df;
+    padding: 10px 25px;
+    border-radius: 5px;
     color: #fff;
     transition: 0.3s ease;
 }
