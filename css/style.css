@@ -12,6 +12,7 @@ a{
     text-decoration: none;
 }
 
+
 .banner-area{
     display: flex;
     margin: 0 100px 80px;
@@ -144,23 +145,26 @@ small{
 /* mission area ends */
 
 .develop-area{
+    width: 100%;
     display: flex;
+    margin-left: 10px;
     margin-bottom: 100px;
-    margin-left: 100px;
+    background-image: url(../img/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
    
-}
-.shape-image{
-    background: url(../img/shapes/shape-1.png) no-repeat;
-
 }
 
 .develop-image{
     width: 50%;
+    margin-left: 100px;
 }
 
-.develop-image img{
+.develop-image img {
     width: 80%;
-
+    height: 100%;
+    
+ 
 }
 .develop-text{
     width: 50%;
@@ -173,10 +177,13 @@ small{
 }
 .develop-text p{
     font-size: 15px;
-    color: #2c3e50;
-    padding-right: 60px;
+    color: hsl(210, 29%, 24%);
+    padding-right: 80px;
     padding-bottom: 40px;
     
+}
+.develop-text span{
+    color: #e67e22;
 }
 .btn{
     font-size: 15px;
@@ -199,6 +206,7 @@ small{
     display: flex;
     margin-bottom: 100px;
     margin-left: 100px;
+    
 }
 
 .global-image{
@@ -207,6 +215,7 @@ small{
 
 .global-image img{
     width: 80%;
+    z-index: 9999;
 }
 .global-text{
     width: 50%;
@@ -225,6 +234,9 @@ small{
     padding-bottom: 40px;
     
 }
+.global-text span{
+    color: #e67e22;
+}
 .btn{
     font-size: 15px;
     font-weight: 600;
@@ -238,6 +250,97 @@ small{
     background: #FDA7DF;
     color: #2c3e50;    
 }
+/* global area ends */
+
+.contact{
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background: rgb(247, 242, 242);
+}
+
+.contact-section{
+    display: flex;
+    padding-bottom: 50px;
+}
+.contact-title{
+    text-align: center;
+    font-size: 30px;
+    color: #2c3e50;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.contact-details{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.contact-details h3{
+    font-size: 25px;
+    color: #2c3e50;
+    padding-bottom: 20px;
+}
+
+.contact-details p{
+    font-size: 15px;
+    color: #2c3e50;
+    padding-bottom: 10px;
+
+}
+
+.contact-form{
+    width: 50%;
+    margin-top: 30px;
+
+}
+.contact-form input{
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background: #2c3e50;
+    font-size: 12px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+
+.contact-form textarea{
+    width: 60%;
+    
+}
+#form-field{
+    border: none;
+    background: #ffefef;
+    border: 1px solid gray;
+}
+/* form section ends */
+
+.footer-area{
+    width: 100%;
+    background:#2c3e50 ;
+    text-align: center;
+}
+.footer-area h2{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.footer-area span{
+    color: #e67e22;
+}
+
+.footer-area p{
+    color:#fff;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+/* footer ends */
 
 
 
